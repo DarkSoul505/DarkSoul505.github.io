@@ -1,0 +1,32 @@
+*,html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+
+.ul>a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    margin-top: 15vh;
+}
